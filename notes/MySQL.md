@@ -29,7 +29,7 @@
         * [主从复制](#主从复制)
         * [读写分离](#读写分离)
     * [参考资料](#参考资料)
-<!-- GFM-TOC -->
+    <!-- GFM-TOC -->
 
 
 ## 一、索引
@@ -37,6 +37,10 @@
 ### B+ Tree 原理
 
 #### 1. 数据结构
+
+[BTree和B+Tree详解-CSDN博客](https://blog.csdn.net/weixin_44203782/article/details/131202433)
+
+[MySQL索引基础篇_二级索引-CSDN博客](https://blog.csdn.net/shark_chili3007/article/details/108089396)
 
 B Tree 指的是 Balance Tree，也就是平衡树。平衡树是一颗查找树，并且所有叶子节点位于同一层。
 
@@ -411,6 +415,10 @@ MySQL 提供了 FROM_UNIXTIME() 函数把 UNIX 时间戳转换为日期，并提
 读写分离常用代理方式来实现，代理服务器接收应用层传来的读写请求，然后决定转发到哪个服务器。
 
 <div align="center"> <img src="https://cs-notes-1256109796.cos.ap-guangzhou.myqcloud.com/master-slave-proxy.png" width=""> </div><br>
+
+## 刷盘策略
+
+[MySQL数据和日志的刷盘机制以及双一配置_mysql的redolog刷盘和bufferpool的刷盘-CSDN博客](https://blog.csdn.net/weixin_43767015/article/details/118549790)
 
 ## 参考资料
 
